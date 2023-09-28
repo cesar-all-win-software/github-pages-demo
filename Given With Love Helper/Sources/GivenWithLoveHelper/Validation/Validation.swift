@@ -33,6 +33,11 @@
 import Foundation
 
 public enum Validation {
+    /// Check if the input string is valid compared to the specified regex.
+    /// - Parameters:
+    ///   - input: Input string under test.
+    ///   - regex: The regex that compared to the input string.
+    /// - Returns: True if the input string is valid compared to the specified regex and false otherwise.
     public static func isValid(input: String?, with regex: String) -> Bool {
         if let input = input {
             let test = NSPredicate(format: "SELF MATCHES %@", regex)
@@ -41,7 +46,7 @@ public enum Validation {
         return false
     }
 
-    /// Validate if the input string is not empty using ``isValid(input:with:)``.
+    /// Validate if the input string is not empty.
     /// - Parameter input: Input string under test.
     /// - Returns: True if the input string is not empty and false otherwise.
     public static func validateIsNonEmpty(for input: String?) -> String {
@@ -50,7 +55,7 @@ public enum Validation {
         return errorMessage
     }
 
-    /// Validate if the input string is a phone number using ``isValid(input:with:)``.
+    /// Validate if the input string is a phone number.
     /// - Parameter input: Input string under test.
     /// - Returns: True if the input string is a phone number and false otherwise.
     public static func validateIsPhone(for input: String?) -> String {
@@ -65,7 +70,7 @@ public enum Validation {
         }
     }
 
-    /// Validate if the input string is an email using ``isValid(input:with:)``.
+    /// Validate if the input string is an email.
     /// - Parameter input: Input string under test.
     /// - Returns: True if the input string is an email and false otherwise.
     public static func validateIsEmail(for input: String?) -> String {

@@ -10,6 +10,7 @@
 		18D775C722AD944400AE281E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C622AD944400AE281E /* Assets.xcassets */; };
 		18D775CA22AD944400AE281E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C922AD944400AE281E /* Preview Assets.xcassets */; };
 		18D775D822AD963800AE281E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D775DA22AD963800AE281E /* LaunchScreen.storyboard */; };
+		627628D8287633200062A0AF /* GivenWithLoveCatalog.docc in Sources */ = {isa = PBXBuildFile; fileRef = 627628D7287633200062A0AF /* GivenWithLoveCatalog.docc */; };
 		627628DE28763C0E0062A0AF /* GivenWithLoveHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 627628DD28763C0E0062A0AF /* GivenWithLoveHelper */; };
 		62BEF62D28762FEF0000F773 /* CheckoutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEF62B28762FEF0000F773 /* CheckoutData.swift */; };
 		62BEF62E28762FEF0000F773 /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEF62C28762FEF0000F773 /* Gift.swift */; };
@@ -32,6 +33,7 @@
 		18D775C922AD944400AE281E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18D775CE22AD944400AE281E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D775DE22AD96B400AE281E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		627628D7287633200062A0AF /* GivenWithLoveCatalog.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GivenWithLoveCatalog.docc; sourceTree = "<group>"; };
 		62BEF62B28762FEF0000F773 /* CheckoutData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutData.swift; sourceTree = "<group>"; };
 		62BEF62C28762FEF0000F773 /* Gift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
 		62BEF62F28762FF90000F773 /* AppMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		18D775BF22AD944300AE281E /* GivenWithLove */ = {
 			isa = PBXGroup;
 			children = (
+				627628D7287633200062A0AF /* GivenWithLoveCatalog.docc */,
 				62BEF62828762FC50000F773 /* Model */,
 				62BEF62728762FBC0000F773 /* View */,
 				62BEF62928762FC90000F773 /* ViewModel */,
@@ -265,6 +268,7 @@
 				62BEF645287630350000F773 /* FocusedMessageBinding.swift in Sources */,
 				62BEF636287630160000F773 /* GiftsGridView.swift in Sources */,
 				62BEF63028762FF90000F773 /* AppMain.swift in Sources */,
+				627628D8287633200062A0AF /* GivenWithLoveCatalog.docc in Sources */,
 				62BEF638287630160000F773 /* SingleGiftView.swift in Sources */,
 				62BEF637287630160000F773 /* GiftsHomeView.swift in Sources */,
 			);

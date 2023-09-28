@@ -102,6 +102,8 @@ struct CheckoutFormView: View {
     }
   }
 
+  /// Function that manages the device-specific navigation from this page. When using an `iPad`, the next view includes both the message view and the message preview on each page half, as opposed to just the message view on an `iPhone`.
+  /// - Returns: The next navigation view.
   func getNextNavigation() -> AnyView {
     let giftMessageViewModel = GiftMessageViewModel(checkoutData: checkoutViewModel.checkoutData)
 

@@ -38,6 +38,7 @@ struct GiftMessagePreview: View {
   @ObservedObject var giftMessageViewModel: GiftMessageViewModel
   @FocusedBinding(\.messageValue) var messageValue
 
+  /// Custom view showing suggested emoji to replace the last word in the message in case it has a corresponding emoji value.
   @ViewBuilder var emojiSuggestionView: some View {
     HStack {
       Button {

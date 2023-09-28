@@ -51,6 +51,8 @@ class GiftsViewModel: ObservableObject {
 
   // MARK: - Intent(s)
 
+  /// Choose a ``Gift`` from the gifts list.
+  /// - Parameter gift: The ``Gift`` selected by user.
   func chooseGift(gift: Gift) {
     for index in gifts.indices {
       if gift.id == gifts[index].id {

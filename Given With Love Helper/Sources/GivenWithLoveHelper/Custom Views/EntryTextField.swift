@@ -32,6 +32,10 @@
 
 import SwiftUI
 
+/// A custom textfield for data entry inside Given With Love app.
+///
+///
+/// This textfield uses SF Symbols to show an icon beside text area. It also has a prompt to show error messages under the textfield.
 public struct EntryTextField: View {
     public var sfSymbolName: String
     public var placeHolder: String
